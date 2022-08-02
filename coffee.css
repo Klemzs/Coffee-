@@ -1,0 +1,73 @@
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    margin: 0% auto;
+    width: 960px;
+}
+h1,h2,h3{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    background-color: brown;
+    color: white;
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a:hover{
+    background-color: aqua;
+}
+aside{
+    width: 280px;
+    float: right;
+    background-color: tan;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+.Photo-left{
+    float: left;
+    margin-right: 20px;
+}
+header{
+    background-image: url("COFFEE.png");
+    height: 100px;
+}
+header h1{
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 50px;
+}
+footer{
+    margin: 40px 0;
+}
+footer nav a{
+    color: grey;
+    text-decoration: none;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: white;
+}
+footer nav a:hover{
+    background-color:chocolate;
+}

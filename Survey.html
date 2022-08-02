@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Coffee Survey</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="survey.css" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+            <h1>All About Coffee</h1>
+            <nav>
+                <ul>
+                    <li><a href = "coffee.html">Home</a></li>
+                    <li><a href = "roasting.html">Roasting</a></li>
+                    <li><a href = "grinding.html">Grinding</a></li>
+                    <li><a href = "brewing.html">Brewing</a></li>
+                    <li><a href = "Drinks.html">Drinks</a></li>
+                    <li><a href = "Survey.html">Coffee Survey</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <h1>Coffee Survey</h1>
+        <aside>
+            <figure>
+                <img src="espresso.jpg" height="193" width="131">
+            </figure>
+        </aside>
+        <form action="Coffee-Survey.php" method="post">
+        <fieldset>
+        <legend>Personal Information</legend>
+        Your Name:<br>
+        <input type="text" name="name" required size="40"><br><br>
+        Email Address:<br>
+        <input type="email" name="email" required placeholder="Please enter your email" size="40"><br>
+        </fieldset>
+
+        <fieldset>
+        <legend>Your Coffee Preferences</legend><br>
+        Tell us your coffee preparation method <br>
+        <textarea name="Preparation" cols="40" rows="6"></textarea><br><br>
+
+        Do you grind your own Beans?<br>
+        <input type="radio" name="grind" value="Yes" checked>Yes<br>
+        <input type="radio" name="grind" value="No">No <br><br>
+
+        How do you drink your coffee?<br>
+        <input type="checkbox" name="drinks" value="Sugar">With sugar<br>
+        <input type="checkbox" name="drinks" value="Cream">With cream<br><br>
+
+        What is your favorite coffee drink?<br>
+        <select name="favorite"><br>
+        <option value="">Please select a drink</option> 
+        <option value="drip">Drip Coffee</option>
+        <option value="french">French Press</option> 
+        <option value="espresso">Espresso</option>
+        <option value="latte">Latte</option> 
+        <option value="flavored">Flavored</option>
+        </select>
+        </fieldset>
+        </form>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href = "coffee.html">Home</a></li>
+                    <li><a href = "roasting.html">Roasting</a></li>
+                    <li><a href = "grinding.html">Grinding</a></li>
+                    <li><a href = "brewing.html">Brewing</a></li>
+                    <li><a href = "Drinks.html">Coffee Drinks</a></li>
+                    <li><a href = "Survey.html">Coffee Survey</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
